@@ -1,0 +1,396 @@
+{
+  "editor.fontSize": 14,
+  // "editor.letterSpacing": 0.1,
+  // "editor.lineHeight": 20,
+  "editor.fontLigatures": false,
+  // "editor.fontFamily": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.acceptSuggestionOnEnter": "off",
+  "apc.parts.font.family": {
+    "sidebar": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+    "titlebar": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+    "activityBar": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+    "panel": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+    "tabs": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+    "statusbat": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+    "settings-body": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+    "extension-editor": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+  },
+  // "apc.parts.font.family": {
+  //   "sidebar": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+  //   "titlebar": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+  //   "activityBar": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+  //   "panel": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+  //   "tabs": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+  //   "statusbat": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+  //   "settings-body": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
+  //   "extension-editor": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace"
+  // },
+  // "editor.matchBrackets": "never",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+  },
+
+  // Vim Configuration
+  // Enable easymotion plugin for quick navigation
+  "vim.easymotion": true,
+  // Enable incremental search highlighting
+  "vim.incsearch": true,
+  // Use system clipboard for vim operations
+  "vim.useSystemClipboard": true,
+  // Enable Ctrl key combinations
+  "vim.useCtrlKeys": true,
+  // Enable search highlight
+  "vim.hlsearch": true,
+  // Set space as the leader key
+  "vim.leader": " ",
+  // Enable vim-sneak plugin for improved motion
+  "vim.sneak": true,
+  // Fix common fold-related issues
+  "vim.foldfix": true,
+  // Enable and configure yank highlighting
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.duration": 200,
+  // Customize search highlight color
+  "vim.searchHighlightColor": "rgba(180, 142, 173, 0.5)",
+  // Don't start on the first line of a file
+  "vim.startup.firstline": false,
+
+  // Handle specific keys
+  "vim.handleKeys": {
+    // Keep Ctrl+d for scrolling down
+    "<C-d>": true,
+    // Keep Ctrl+u for scrolling up
+    "<C-u>": true,
+    // Disable Ctrl+f to use VS Code's find instead
+    "<C-f>": false,
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // Basic Operations
+    {
+      // Clear search highlighting with Ctrl+n
+      "before": ["<C-n>"],
+      "commands": [":nohl"],
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showHover"],
+      "when": "editorTextFocus",
+    },
+    {
+      "before": ["g", "h"],
+      "commands": [
+        {
+          "command": "editor.action.showHover",
+          "args": {
+            "focus": true,
+          },
+        },
+      ],
+    },
+    // {
+    //   "before": ["K"],
+    //   "commands": ["editor.action.showDefinitionPreviewHover"],
+    //   "when": [""]
+    // },
+    {
+      "before": ["<leader> b"],
+      "commands": ["workbench.action.toggleSidebarVisibility"],
+    },
+  ],
+  "vim.visualModeKeyBindings": [
+    // Better Indent
+    {
+      "before": [">"],
+      "after": [">", "g", "v"],
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"],
+    },
+  ],
+
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "git.openRepositoryInParentFolders": "always",
+  "catppuccin.accentColor": "blue",
+  "errorLens.messageBackgroundMode": "message",
+  "workbench.startupEditor": "none",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.currentLine.enabled": false,
+  "explorer.compactFolders": false,
+  "hediet.vscode-drawio.resizeImages": null,
+  "hediet.vscode-drawio.codeLinkActivated": false,
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "remote.SSH.remotePlatform": {
+    "sandbox.vcm48n.csb": "linux",
+    "wins-macbook": "macOS",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    // "editor.rulers": [
+    //     80
+    // ],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "settingsSync.ignoredExtensions": [],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "workbench.activityBar.location": "bottom",
+  "workbench.editorAssociations": {
+    "*.pdf": "latex-workshop-pdf-hook",
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "files.exclude": {
+    "**/.DS_Store": true,
+  },
+  "git.blame.statusBarItem.enabled": true,
+  "git.blame.editorDecoration.enabled": true,
+  "yaml.schemas": {
+    "file:///Users/win/.vscode/extensions/continue.continue-1.2.11-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml",
+    ],
+  },
+  "geminicodeassist.inlineSuggestions.enableAuto": false,
+  "diffEditor.codeLens": true,
+  "python.analysis.typeCheckingMode": "standard",
+  "workbench.iconTheme": "helium-icon-theme",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "makefile.configureOnOpen": true,
+  "settingsSync.keybindingsPerPlatform": false,
+  "python.defaultInterpreterPath": "/opt/homebrew/anaconda3",
+  "terminal.integrated.inheritEnv": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "github.copilot.nextEditSuggestions.fixes": false,
+  "editor.inlineSuggest.enabled": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar",
+  },
+  "workbench.sideBar.location": "right",
+  "latex-workshop.intellisense.file.exclude": [
+    "**/*.aux",
+    "**/*.bbl",
+    "**/*.bcf",
+    "**/*.blg",
+    "**/*.idx",
+    "**/*.ind",
+    "**/*.lof",
+    "**/*.lot",
+    "**/*.out",
+    "**/*.toc",
+    "**/*.acn",
+    "**/*.acr",
+    "**/*.alg",
+    "**/*.glg",
+    "**/*.glo",
+    "**/*.gls",
+    "**/*.ist",
+    "**/*.fls",
+    "**/*.log",
+    "**/*.nav",
+    "**/*.snm",
+    "**/*.fdb_latexmk",
+    "**/*.synctex.gz",
+    "**/*.run.xml",
+    "**/.DS_Store",
+  ],
+  "workbench.editor.empty.hint": "hidden",
+  "inlineChat.lineNaturalLanguageHint": false,
+  "jdk.telemetry.enabled": false,
+  "docker.extension.enableComposeLanguageServer": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[java]": {
+    "editor.tabSize": 4,
+  },
+  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true,
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+  },
+  "editor.guides.bracketPairs": "active",
+
+  "latex-workshop.latex.outDir": "%DIR%/output",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%",
+      ],
+      "env": {},
+    },
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-output-directory=%OUTDIR%",
+        "%DOC%",
+      ],
+      "env": {},
+    },
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-output-directory=%OUTDIR%",
+        "%DOC%",
+      ],
+      "env": {},
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": ["%DOCFILE%"],
+      "env": {},
+    },
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdfLaTeX",
+      "tools": ["pdflatex"],
+    },
+    {
+      "name": "latexmk 🔃",
+      "tools": ["latexmk"],
+    },
+    {
+      "name": "xelatex",
+      "tools": ["xelatex"],
+    },
+    {
+      "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
+      "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"],
+    },
+    {
+      "name": "xelatex ➞ bibtex ➞ xelatex`×2",
+      "tools": ["xelatex", "bibtex", "xelatex", "xelatex"],
+    },
+  ],
+  "latex-workshop.latex.clean.subfolder.enabled": true,
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "rinz5",
+      "connectionId": "rinz5",
+      "region": "EU",
+    },
+  ],
+  "sonarlint.focusOnNewCode": false,
+  "deepsource.installationUrl": "https://app.deepsource.com",
+  "deepsource.highlightAffectedLines": false,
+  "sonarlint.automaticAnalysis": true,
+  "chat.commandCenter.enabled": false,
+  "terminal.integrated.suggest.inlineSuggestion": "off",
+  "terminal.integrated.suggest.enabled": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "roo-cline.enableCodeActions": false,
+  "errorLens.codeLensOnClick": "showProblemsView",
+  "C_Cpp.copilotHover": "disabled",
+  "github.copilot.chat.agent.currentEditorContext.enabled": false,
+  "github.copilot.chat.copilotDebugCommand.enabled": false,
+  "github.copilot.chat.edits.suggestRelatedFilesForTests": false,
+  "github.copilot.chat.edits.suggestRelatedFilesFromGitHistory": false,
+  "github.copilot.chat.newWorkspaceCreation.enabled": false,
+  "github.copilot.chat.reviewSelection.enabled": false,
+  "github.copilot.chat.reviewAgent.enabled": false,
+  "notebook.experimental.generate": false,
+  "chat.agent.thinking.generateTitles": false,
+  "python.analysis.exclude": ["*.ipynb"],
+  "workbench.settings.showAISearchToggle": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe",
+      ],
+      "args": [],
+      "icon": "terminal-cmd",
+    },
+    "Git Bash": {
+      "source": "Git Bash",
+      "icon": "terminal-git-bash",
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    },
+  },
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "redhat.telemetry.enabled": false,
+}

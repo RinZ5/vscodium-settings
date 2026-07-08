@@ -6,6 +6,8 @@ enabled:
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
   - id: cnshenj.vscode-task-manager
     uuid: 7ace1daa-3c5b-4968-96f0-19cd8224ff33
+  - id: codezombiech.gitignore
+    uuid: 3e891cf9-53cb-49a3-8d01-8f0b1f0afb29
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: golang.go

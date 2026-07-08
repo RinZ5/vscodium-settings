@@ -259,4 +259,94 @@
     "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
     "when": "inFilesPicker && inQuickOpen",
   },
+  {
+    "key": "cmd+alt+a",
+    "command": "cursor-harpoon.addEditor",
+    "when": "isMac",
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "cursor-harpoon.addEditor",
+    "when": "isWindows",
+  },
+  {
+    "key": "cmd+alt+x",
+    "command": "cursor-harpoon.deleteEditor",
+    "when": "isMac",
+  },
+  {
+    "key": "ctrl+alt+x",
+    "command": "cursor-harpoon.deleteEditor",
+    "when": "isWindows",
+  },
+  {
+    "key": "cmd+alt+e",
+    "command": "cursor-harpoon.editorQuickPick",
+    "when": "isMac",
+  },
+  {
+    "key": "ctrl+alt+e",
+    "command": "cursor-harpoon.editorQuickPick",
+    "when": "isWindows",
+  },
+  {
+    "key": "cmd+alt+1",
+    "command": "cursor-harpoon.gotoEditor1",
+    "when": "isMac",
+  },
+  {
+    "key": "ctrl+alt+1",
+    "command": "cursor-harpoon.gotoEditor1",
+    "when": "isWindows",
+  },
+  {
+    "key": "cmd+alt+2",
+    "command": "cursor-harpoon.gotoEditor2",
+    "when": "isMac",
+  },
+  {
+    "key": "ctrl+alt+2",
+    "command": "cursor-harpoon.gotoEditor2",
+    "when": "isWindows",
+  },
+  {
+    "key": "cmd+alt+3",
+    "command": "cursor-harpoon.gotoEditor3",
+    "when": "isMac",
+  },
+  {
+    "key": "ctrl+alt+3",
+    "command": "cursor-harpoon.gotoEditor3",
+    "when": "isWindows",
+  },
+  {
+    "key": "cmd+alt+4",
+    "command": "cursor-harpoon.gotoEditor4",
+    "when": "isMac",
+  },
+  {
+    "key": "ctrl+alt+4",
+    "command": "cursor-harpoon.gotoEditor4",
+    "when": "isWindows",
+  },
+  {
+    "key": "enter",
+    "command": "list.select",
+    "when": "filesExplorerFocus && !inputFocus",
+  },
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && !inputFocus",
+  },
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus",
+  },
+  {
+    "key": "d",
+    "command": "moveFileToTrash",
+    "when": "filesExplorerFocus && !inputFocus",
+  },
 ]

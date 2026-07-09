@@ -1,5 +1,7 @@
 disabled: []
 enabled:
+  - id: bruno-api-client.bruno
+    uuid: d9d9d9f5-a013-42bb-bc1d-a22090e5d31c
   - id: Catppuccin.catppuccin-vsc
     uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
   - id: christian-kohler.path-intellisense

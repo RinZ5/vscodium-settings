@@ -6,6 +6,8 @@ enabled:
     uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
   - id: christian-kohler.path-intellisense
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
+  - id: Civilflistrait.wrap-with-mini
+    uuid: 2d248f9b-7923-4e42-8280-00bec5c711c6
   - id: cnshenj.vscode-task-manager
     uuid: 7ace1daa-3c5b-4968-96f0-19cd8224ff33
   - id: codezombiech.gitignore

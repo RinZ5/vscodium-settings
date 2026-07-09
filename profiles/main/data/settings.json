@@ -397,4 +397,5 @@
   "workbench.browser.showInTitleBar": true,
   "window.commandCenter": false,
   "syncSettings.keybindingsPerPlatform": false,
+  "go.toolsManagement.autoUpdate": true,
 }

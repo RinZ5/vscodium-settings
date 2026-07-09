@@ -16,6 +16,8 @@ enabled:
     uuid: 1b73eea9-96d7-41ad-8a9e-9d58c0516d59
   - id: humao.rest-client
     uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
+  - id: kisstkondoros.vscode-gutter-preview
+    uuid: eedfd044-d5ac-4389-973d-3ac1fdb98ad5
   - id: mhutchie.git-graph
     uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
   - id: ms-azuretools.vscode-containers

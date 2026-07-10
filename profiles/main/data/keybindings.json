@@ -91,12 +91,12 @@
   },
   {
     "key": "shift+cmd+b",
-    "command": "workbench.action.toggleAuxiliaryBar",
+    "command": "workbench.action.tasks.runTask",
     "when": "isMac",
   },
   {
     "key": "shift+ctrl+b",
-    "command": "workbench.action.toggleAuxiliaryBar",
+    "command": "workbench.action.tasks.runTask",
     "when": "isWindows",
   },
   {

@@ -2,22 +2,42 @@
   {
     "key": "ctrl+j",
     "command": "selectNextSuggestion",
-    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion",
+    "when": "(suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion) && isWindows",
   },
   {
     "key": "ctrl+k",
     "command": "selectPrevSuggestion",
-    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion",
+    "when": "(suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion) && isWindows",
+  },
+  {
+    "key": "alt+j",
+    "command": "selectNextSuggestion",
+    "when": "(suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion) && isMac",
+  },
+  {
+    "key": "alt+k",
+    "command": "selectPrevSuggestion",
+    "when": "(suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion) && isMac",
   },
   {
     "key": "ctrl+j",
     "command": "selectNextCodeAction",
-    "when": "codeActionMenuVisible",
+    "when": "codeActionMenuVisible && isWindows",
   },
   {
     "key": "ctrl+k",
     "command": "selectPrevCodeAction",
-    "when": "codeActionMenuVisible",
+    "when": "codeActionMenuVisible && isWindows",
+  },
+  {
+    "key": "alt+j",
+    "command": "selectNextCodeAction",
+    "when": "codeActionMenuVisible && isMac",
+  },
+  {
+    "key": "alt+k",
+    "command": "selectPrevCodeAction",
+    "when": "codeActionMenuVisible && isMac",
   },
   {
     "key": "down",
@@ -27,12 +47,22 @@
   {
     "key": "ctrl+j",
     "command": "editor.action.scrollDownHover",
-    "when": "editorHoverFocused",
+    "when": "editorHoverFocused && isWindows",
+  },
+  {
+    "key": "alt+j",
+    "command": "editor.action.scrollDownHover",
+    "when": "editorHoverFocused && isMac",
   },
   {
     "key": "ctrl+k",
     "command": "editor.action.scrollUpHover",
-    "when": "editorHoverFocused",
+    "when": "editorHoverFocused && isWindows",
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.scrollUpHover",
+    "when": "editorHoverFocused && isMac",
   },
   {
     "key": "ctrl+l",
@@ -47,12 +77,22 @@
   {
     "key": "ctrl+j",
     "command": "workbench.action.quickOpenSelectNext",
-    "when": "inQuickOpen",
+    "when": "inQuickOpen && isWindows",
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen && isMac",
   },
   {
     "key": "ctrl+k",
     "command": "workbench.action.quickOpenSelectPrevious",
-    "when": "inQuickOpen",
+    "when": "inQuickOpen && isWindows",
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen && isMac",
   },
   {
     "key": "cmd+j",

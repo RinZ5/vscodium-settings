@@ -6,8 +6,6 @@ enabled:
     uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
   - id: christian-kohler.path-intellisense
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
-  - id: Civilflistrait.wrap-with-mini
-    uuid: 2d248f9b-7923-4e42-8280-00bec5c711c6
   - id: cnshenj.vscode-task-manager
     uuid: 7ace1daa-3c5b-4968-96f0-19cd8224ff33
   - id: codezombiech.gitignore
@@ -62,5 +60,7 @@ enabled:
     uuid: a95ee795-1576-4ffa-acda-8d6e6a95c584
   - id: waderyan.gitblame
     uuid: 2335b326-c334-4e81-bc51-c408fcec6e7c
+  - id: yzhang.markdown-all-in-one
+    uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

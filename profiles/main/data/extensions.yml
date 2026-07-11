@@ -32,6 +32,8 @@ enabled:
     uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: ms-python.vscode-python-envs
+    uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
   - id: ms-toolsai.jupyter
     uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
   - id: ms-toolsai.jupyter-keymap
@@ -52,6 +54,8 @@ enabled:
     uuid: 06574cb4-e5dc-4631-8174-a543a4533621
   - id: sleistner.vscode-fileutils
     uuid: d637104e-1fd7-4063-98fc-8afe46012c9b
+  - id: tombi-toml.tombi
+    uuid: bb77ad7f-cbc2-4e7a-8793-aa8f16a4ff2f
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: vscodevim.vim
@@ -60,6 +64,8 @@ enabled:
     uuid: a95ee795-1576-4ffa-acda-8d6e6a95c584
   - id: waderyan.gitblame
     uuid: 2335b326-c334-4e81-bc51-c408fcec6e7c
+  - id: washan.cargo-appraiser
+    uuid: 46f19265-bb03-4c24-b509-1b31a37274e9
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks

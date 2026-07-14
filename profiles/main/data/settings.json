@@ -398,4 +398,5 @@
   "window.commandCenter": false,
   "syncSettings.keybindingsPerPlatform": false,
   "go.toolsManagement.autoUpdate": true,
+  "explorer.confirmPasteNative": false,
 }

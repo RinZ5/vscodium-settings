@@ -392,7 +392,6 @@
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "workbench.colorTheme": "Catppuccin Frappé",
   "redhat.telemetry.enabled": false,
-  "workbench.editor.showTabs": "none",
   "workbench.browser.showInTitleBar": true,
   "syncSettings.keybindingsPerPlatform": false,
   "go.toolsManagement.autoUpdate": true,
@@ -400,4 +399,6 @@
   "obsidianPreview.vaultPath": "/Users/win/dev/personal/note/quartz/content",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
+  "workbench.editor.showTabs": "single",
+  "python.terminal.activateEnvironment": false,
 }

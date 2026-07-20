@@ -401,4 +401,6 @@
   "workbench.layoutControl.enabled": false,
   "workbench.editor.showTabs": "single",
   "python.terminal.activateEnvironment": false,
+  "latex-workshop.formatting.tex-fmt.path": "",
+  "latex-workshop.formatting.latex": "tex-fmt",
 }

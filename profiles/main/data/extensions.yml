@@ -18,6 +18,8 @@ enabled:
     uuid: 1b73eea9-96d7-41ad-8a9e-9d58c0516d59
   - id: humao.rest-client
     uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
+  - id: James-Yu.latex-workshop
+    uuid: 61d03280-3919-4dd1-bce1-178ca21fdeaf
   - id: jeanp413.open-remote-ssh
     uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
   - id: kisstkondoros.vscode-gutter-preview

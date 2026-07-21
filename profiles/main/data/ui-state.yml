@@ -3,7 +3,7 @@ golang.go: '{"go.extensionVersion":"0.40.0","telemetryStartTime":"2026-07-08T08:
   golang.org/dl/go1.26.5","binpath":"golang.org/dl/go1.26.5","label":"Go
   1.26.5","available":false},{"description":"download
   golang.org/dl/go1.25.12","binpath":"golang.org/dl/go1.25.12","label":"Go
-  1.25.12","available":false}]},"goplsSurveyConfig":"{\"prompt\":true,\"promptThisMonth\":false,\"dateComputedPromptThisMonth\":\"2026-07-08T14:32:06.595Z\"}","developerSurveyConfigState":"{\"config\":{\"StartDate\":\"2025-09-09T00:00:00.000Z\",\"EndDate\":\"2025-10-01T00:00:00.000Z\",\"URL\":\"https://google.qualtrics.com/jfe/form/SV_3wwSstC8vv4Ymkm?s=v\"},\"version\":\"v0.1.0\",\"lastDateUpdated\":\"2026-07-19T10:35:04.322Z\"}"}'
+  1.25.12","available":false}]},"goplsSurveyConfig":"{\"prompt\":true,\"promptThisMonth\":false,\"dateComputedPromptThisMonth\":\"2026-07-08T14:32:06.595Z\"}","developerSurveyConfigState":"{\"config\":{\"StartDate\":\"2025-09-09T00:00:00.000Z\",\"EndDate\":\"2025-10-01T00:00:00.000Z\",\"URL\":\"https://google.qualtrics.com/jfe/form/SV_3wwSstC8vv4Ymkm?s=v\"},\"version\":\"v0.1.0\",\"lastDateUpdated\":\"2026-07-20T16:10:44.860Z\"}"}'
 helgardrichard.helium-icon-theme: '{"helium-icon-theme.version":"1.0.0"}'
 jeanp413.open-remote-ssh: '{"remoteLocationHistory_v0":{"Hostinger":["/home/win/homer"]}}'
 mhutchie.git-graph: '{"lastKnownGitPath":"/opt/homebrew/bin/git"}'
@@ -49,67 +49,9 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   con\":{\"id\":\"remote-explorer-view-icon\"},\"name\":\"Remote
   Explorer\",\"isBuiltin\":true,\"views\":[{}]},{\"id\":\"workbench.view.extens\
   ions\",\"themeIcon\":{\"id\":\"extensions-view-icon\"},\"name\":\"Extensions\
-  \",\"isBuiltin\":true,\"views\":[{\"when\":\"defaultExtensionViews &&
-  extensionsGalleryStatus == 'accessDenied' || defaultExtensionViews &&
-  extensionsGalleryStatus == 'requiresSignIn' || searchMarketplaceExtensions &&
-  extensionsGalleryStatus == 'accessDenied' || searchMarketplaceExtensions &&
-  extensionsGalleryStatus ==
-  'requiresSignIn'\"},{\"when\":\"defaultExtensionViews\"},{\"when\":\"searchEx\
-  tensionUpdates ||
-  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
-  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
-  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
-  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
-  en\":\"defaultExtensionViews && hasGallery &&
-  !config.extensions.showRecommendationsOnlyOnDemand &&
-  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures\"},{\"when\":\"config.chat.mcp.gallery.enabled
-  && defaultExtensionViews && !chatSetupDisabledInWorkspace && !chatSetupHidden
-  && !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
-  mcpServersGalleryStatus == 'available' || config.chat.mcp.gallery.serviceUrl
-  && defaultExtensionViews && !chatSetupDisabledInWorkspace && !chatSetupHidden
-  && !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
-  mcpServersGalleryStatus == 'available' || defaultExtensionViews &&
-  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
-  mcpServersGalleryStatus == 'available' && productQualityType !=
-  'stable'\"},{\"when\":\"defaultExtensionViews && !chatSetupDisabledInWorkspace
-  && !chatSetupHidden && !config.chat.disableAIFeatures &&
-  !config.chat.mcp.gallery.enabled && !config.chat.mcp.gallery.serviceUrl &&
-  !hasInstalledMcpServers && mcpServersGalleryStatus == 'available' &&
-  productQualityType == 'stable'\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledAgentPlugins &&
-  !chatSetupHidden\"},{\"when\":\"defaultExtensionViews && !chatSetupHidden &&
-  !hasInstalledAgentPlugins\"},{\"when\":\"hasGallery &&
-  searchMarketplaceExtensions\"},{\"when\":\"installedExtensions ||
-  searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"when\":\
-  \"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
-  \":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensions\"}\
-  ,{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"when\":\
-  \"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorksp\
-  aceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"},{\"when\":\"sea\
-  rchRestartRequiredExtensions\"},{\"when\":\"searchAgentPlugins &&
-  !chatSetupHidden\"},{\"when\":\"config.chat.mcp.gallery.enabled &&
-  searchMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' ||
-  config.chat.mcp.gallery.serviceUrl && searchMcpServers &&
-  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' ||
-  searchMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' &&
-  productQualityType != 'stable'\"},{\"when\":\"searchMcpServers &&
-  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && !config.chat.mcp.gallery.enabled &&
-  !config.chat.mcp.gallery.serviceUrl && mcpServersGalleryStatus == 'available'
-  && productQualityType ==
-  'stable'\"}]},{\"id\":\"workbench.view.extension.test\",\"themeIcon\":{\"id\":\
-  \"test-view-icon\"},\"name\":\"Testing\",\"isBuiltin\":true,\"views\":[{\"when\
-  \":\"testing.providerCount >
+  \",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extension.test\",\
+  \"themeIcon\":{\"id\":\"test-view-icon\"},\"name\":\"Testing\",\"isBuiltin\":\
+  true,\"views\":[{\"when\":\"testing.providerCount >
   0\"},{\"when\":\"testing.isTestCoverageOpen\"},{\"when\":\"go.hasProfiles\"}]\
   },{\"id\":\"workbench.view.extension.references-view\",\"themeIcon\":{\"id\":\
   \"references\"},\"name\":\"References\",\"isBuiltin\":false,\"views\":[{\"when\
@@ -142,7 +84,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeI
   !chatSetupDisabledInWorkspace && !chatSetupHidden &&
   !config.chat.disableAIFeatures"}]}]'
 workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["go.sum",true],["dockerfile",true],["jsonc",true],["gitignore",true],["yaml",true],["html",true],["markdown",true],["rust",true],["log",true],["latex",true],["python",true],["plaintext",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["go.sum",true],["dockerfile",true],["jsonc",true],["gitignore",true],["yaml",true],["html",true],["markdown",true],["log",true],["latex",true],["rust",true],["plaintext",true],["python",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"rustDependencies","isHidden":false},{"id":"gitlens.views.welcome","isHidden":false},{"id":"gitlens.views.home","isHidden":false},{"id":"gitlens.views.launchpad","isHidden":false},{"id":"gitlens.views.drafts","isHidden":false},{"id":"gitlens.views.workspaces","isHidden":false},{"id":"gitlens.views.commitDetails","isHidden":false},{"id":"gitlens.views.pullRequest","isHidden":false},{"id":"gitlens.views.lineHistory","isHidden":false},{"id":"gitlens.views.fileHistory","isHidden":false},{"id":"gitlens.views.timeline","isHidden":false},{"id":"gitlens.views.searchAndCompare","isHidden":false},{"id":"gitlens.views.patchDetails","isHidden":false},{"id":"gitlens.views.graph","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false},{"id":"twinny.sidebar","isHidden":false},{"id":"bruno.workspaceCollections","isHidden":false},{"id":"vscode-task.tasks","isHidden":false},{"id":"foam-vscode.connections","isHidden":false},{"id":"foam-vscode.tags-explorer","isHidden":false},{"id":"foam-vscode.notes-explorer","isHidden":false},{"id":"foam-vscode.orphans","isHidden":false},{"id":"foam-vscode.placeholders","isHidden":false},{"id":"foam-vscode.smart-folders","isHidden":false},{"id":"foam-vscode.related-notes","isHidden":false}]'
 workbench.newDefaultThemeNotification: "true"
 workbench.panel.alignment: center
@@ -154,7 +96,7 @@ workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false
 workbench.panel.pinnedPanels: '[{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"workbench.view.extension.brunoLogsContainer","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.jupyter-variables","pinned":true,"visible":false,"order":7},{"id":"refactorPreview","pinned":true,"visible":false}]'
 workbench.panel.placeholderPanels: '[{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"Terminal","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"Problems","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"Output","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"Debug
   Console","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"Test
-  Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.brunoLogsContainer","themeIcon":{"id":"output"},"name":"Bruno
+  Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[]},{"id":"workbench.view.extension.brunoLogsContainer","themeIcon":{"id":"output"},"name":"Bruno
   Logs","isBuiltin":false,"views":[{}]},{"id":"workbench.view.extension.jupyter-variables","themeIcon":{"id":"notebook"},"name":"Jupyter","isBuiltin":false,"views":[{"when":"jupyter.hasNativeNotebookOrInteractiveWindowOpen"},{"when":"jupyter.hasNativeNotebookOrInteractiveWindowOpen
   &&
   jupyter:showTagsExplorer"}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor

@@ -6,6 +6,8 @@
   // "editor.fontFamily": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontFamily": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.acceptSuggestionOnEnter": "off",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 1,
   "apc.parts.font.family": {
     "sidebar": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
     "titlebar": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",

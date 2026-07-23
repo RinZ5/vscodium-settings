@@ -266,16 +266,6 @@
     "when": "editorHoverFocused",
   },
   {
-    "key": "cmd+k cmd+i",
-    "command": "editor.debug.action.showDebugHover",
-    "when": "editorTextFocus && inDebugMode",
-  },
-  {
-    "key": "cmd+k cmd+i",
-    "command": "-editor.debug.action.showDebugHover",
-    "when": "editorTextFocus && inDebugMode",
-  },
-  {
     "key": "alt+cmd+b",
     "command": "-workbench.action.toggleAuxiliaryBar",
   },

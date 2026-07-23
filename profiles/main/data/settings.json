@@ -1,9 +1,6 @@
 {
   "editor.fontSize": 14,
-  // "editor.letterSpacing": 0.1,
-  // "editor.lineHeight": 20,
   "editor.fontLigatures": false,
-  // "editor.fontFamily": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontFamily": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.acceptSuggestionOnEnter": "off",
   "workbench.editor.limit.enabled": true,
@@ -18,16 +15,6 @@
     "settings-body": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
     "extension-editor": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
   },
-  // "apc.parts.font.family": {
-  //   "sidebar": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
-  //   "titlebar": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
-  //   "activityBar": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
-  //   "panel": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
-  //   "tabs": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
-  //   "statusbat": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
-  //   "settings-body": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
-  //   "extension-editor": "'Paper Mono', 'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace"
-  // },
   // "editor.matchBrackets": "never",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
@@ -96,11 +83,7 @@
         },
       ],
     },
-    // {
-    //   "before": ["K"],
-    //   "commands": ["editor.action.showDefinitionPreviewHover"],
-    //   "when": [""]
-    // },
+
     {
       "before": ["<leader> b"],
       "commands": ["workbench.action.toggleSidebarVisibility"],

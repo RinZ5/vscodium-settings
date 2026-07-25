@@ -3,8 +3,6 @@
   "editor.fontLigatures": false,
   "editor.fontFamily": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.acceptSuggestionOnEnter": "off",
-  "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.value": 1,
   "apc.parts.font.family": {
     "sidebar": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
     "titlebar": "'Iosevka Nerd Font', 'CaskaydiaCove Nerd Font Light', 'Fira Code', Consolas, 'Courier New', monospace",
@@ -229,6 +227,7 @@
   },
   "[java]": {
     "editor.tabSize": 4,
+    "editor.defaultFormatter": "redhat.java",
   },
   "editor.formatOnSave": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
@@ -381,7 +380,7 @@
   "syncSettings.keybindingsPerPlatform": false,
   "go.toolsManagement.autoUpdate": true,
   "explorer.confirmPasteNative": false,
-  "obsidianPreview.vaultPath": "/Users/win/dev/personal/note/quartz/content",
+  "obsidianPreview.vaultPath": "",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.showTabs": "single",

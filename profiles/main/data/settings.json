@@ -372,6 +372,10 @@
       "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     },
   },
+  "go.goroot": "/opt/homebrew/opt/go/libexec",
+  "go.alternateTools": {
+    "go": "/opt/homebrew/bin/go",
+  },
   "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "workbench.colorTheme": "Catppuccin Frappé",
@@ -381,10 +385,10 @@
   "go.toolsManagement.autoUpdate": true,
   "explorer.confirmPasteNative": false,
   "obsidianPreview.vaultPath": "",
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
   "workbench.editor.showTabs": "single",
   "python.terminal.activateEnvironment": false,
   "latex-workshop.formatting.tex-fmt.path": "",
   "latex-workshop.formatting.latex": "tex-fmt",
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
 }

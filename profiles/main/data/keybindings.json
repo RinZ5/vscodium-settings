@@ -2,22 +2,12 @@
   {
     "key": "ctrl+j",
     "command": "selectNextSuggestion",
-    "when": "(suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion) && isWindows",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion",
   },
   {
     "key": "ctrl+k",
     "command": "selectPrevSuggestion",
-    "when": "(suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion) && isWindows",
-  },
-  {
-    "key": "alt+j",
-    "command": "selectNextSuggestion",
-    "when": "(suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion) && isMac",
-  },
-  {
-    "key": "alt+k",
-    "command": "selectPrevSuggestion",
-    "when": "(suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion) && isMac",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion",
   },
   {
     "key": "ctrl+j",

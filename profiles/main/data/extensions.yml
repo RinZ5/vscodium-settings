@@ -26,12 +26,16 @@ enabled:
     uuid: cf4c14ea-15fd-4a5b-8221-8403bd86238a
   - id: kisstkondoros.vscode-gutter-preview
     uuid: eedfd044-d5ac-4389-973d-3ac1fdb98ad5
+  - id: llvm-vs-code-extensions.vscode-clangd
+    uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: mhutchie.git-graph
     uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
   - id: ms-azuretools.vscode-containers
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
+  - id: ms-dotnettools.vscode-dotnet-runtime
+    uuid: 1aab81a1-b3d9-4aef-976b-577d5d90fe3f
   - id: ms-python.autopep8
     uuid: 5a21b0c3-89ca-46dd-8ada-658518fb94a5
   - id: ms-python.debugpy
@@ -50,6 +54,7 @@ enabled:
     uuid: e153ca70-b543-4865-b4c5-b31d34185948
   - id: ms-vscode.vscode-typescript-next
     uuid: 15305aca-2588-4ca0-8147-ab2c64730b82
+  - id: muhammad-sammy.csharp
   - id: przybylski.cursor-harpoon
     uuid: 8529c3d2-ec5a-44d5-b175-c8200d1c43e1
   - id: px39n.obsidianpreview

@@ -391,4 +391,7 @@
   "latex-workshop.formatting.latex": "tex-fmt",
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode",
+  },
 }

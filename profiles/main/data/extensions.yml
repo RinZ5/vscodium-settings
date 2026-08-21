@@ -10,6 +10,8 @@ enabled:
     uuid: 7ace1daa-3c5b-4968-96f0-19cd8224ff33
   - id: codezombiech.gitignore
     uuid: 3e891cf9-53cb-49a3-8d01-8f0b1f0afb29
+  - id: csharpier.csharpier-vscode
+    uuid: 14f1480a-1193-4742-aaee-dd963cc37f0f
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: golang.go
@@ -55,6 +57,7 @@ enabled:
   - id: ms-vscode.vscode-typescript-next
     uuid: 15305aca-2588-4ca0-8147-ab2c64730b82
   - id: muhammad-sammy.csharp
+    uuid: 57b4ceec-c35a-4a96-ab38-23c6338df406
   - id: przybylski.cursor-harpoon
     uuid: 8529c3d2-ec5a-44d5-b175-c8200d1c43e1
   - id: px39n.obsidianpreview

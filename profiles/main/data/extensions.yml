@@ -1,5 +1,9 @@
 disabled: []
 enabled:
+  - id: 3timeslazy.vscodium-devpodcontainers
+    uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
+  - id: AvaloniaTeam.vscode-avalonia
+    uuid: 4b5f46f8-72f6-4978-a0e3-97c20c46aa09
   - id: bruno-api-client.bruno
     uuid: d9d9d9f5-a013-42bb-bc1d-a22090e5d31c
   - id: Catppuccin.catppuccin-vsc

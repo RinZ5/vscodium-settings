@@ -1,53 +1,23 @@
 disabled: []
 enabled:
-  - id: 3timeslazy.vscodium-devpodcontainers
-    uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
-  - id: AvaloniaTeam.vscode-avalonia
-    uuid: 4b5f46f8-72f6-4978-a0e3-97c20c46aa09
-  - id: bruno-api-client.bruno
-    uuid: d9d9d9f5-a013-42bb-bc1d-a22090e5d31c
   - id: Catppuccin.catppuccin-vsc
     uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
+  - id: Catppuccin.catppuccin-vsc-icons
+    uuid: 625b9abd-dfac-405b-bf34-e65f46e2f22f
   - id: christian-kohler.path-intellisense
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
-  - id: cnshenj.vscode-task-manager
-    uuid: 7ace1daa-3c5b-4968-96f0-19cd8224ff33
-  - id: codezombiech.gitignore
-    uuid: 3e891cf9-53cb-49a3-8d01-8f0b1f0afb29
-  - id: csharpier.csharpier-vscode
-    uuid: 14f1480a-1193-4742-aaee-dd963cc37f0f
+  - id: drcika.apc-extension
+    uuid: c445982f-a615-472b-a90e-0a9edd88b8e8
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
-  - id: golang.go
-    uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
-  - id: helgardrichard.helium-icon-theme
-    uuid: 1b73eea9-96d7-41ad-8a9e-9d58c0516d59
-  - id: humao.rest-client
-    uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
-  - id: James-Yu.latex-workshop
-    uuid: 61d03280-3919-4dd1-bce1-178ca21fdeaf
-  - id: jeanp413.open-remote-ssh
-    uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
-  - id: josevseb.google-java-format-for-vs-code
-    uuid: cf4c14ea-15fd-4a5b-8221-8403bd86238a
   - id: kisstkondoros.vscode-gutter-preview
     uuid: eedfd044-d5ac-4389-973d-3ac1fdb98ad5
+  - id: KylinIdeTeam.cmake-intellisence
+    uuid: b02fa3e5-06d4-4aad-8dbb-fe54a1cc58f9
   - id: llvm-vs-code-extensions.vscode-clangd
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
-  - id: mhutchie.git-graph
-    uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
-  - id: ms-azuretools.vscode-containers
-    uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
-  - id: ms-azuretools.vscode-docker
-    uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: ms-dotnettools.vscode-dotnet-runtime
     uuid: 1aab81a1-b3d9-4aef-976b-577d5d90fe3f
-  - id: ms-python.autopep8
-    uuid: 5a21b0c3-89ca-46dd-8ada-658518fb94a5
-  - id: ms-python.debugpy
-    uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
-  - id: ms-python.python
-    uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-toolsai.jupyter
     uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
   - id: ms-toolsai.jupyter-keymap
@@ -58,47 +28,17 @@ enabled:
     uuid: ab4fb32a-befb-4102-adf9-1652d0cd6a5e
   - id: ms-toolsai.vscode-jupyter-slideshow
     uuid: e153ca70-b543-4865-b4c5-b31d34185948
-  - id: ms-vscode.vscode-typescript-next
-    uuid: 15305aca-2588-4ca0-8147-ab2c64730b82
+  - id: ms-vscode.cmake-tools
+    uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
   - id: muhammad-sammy.csharp
     uuid: 57b4ceec-c35a-4a96-ab38-23c6338df406
-  - id: przybylski.cursor-harpoon
-    uuid: 8529c3d2-ec5a-44d5-b175-c8200d1c43e1
-  - id: px39n.obsidianpreview
-    uuid: e4dd17ef-b9b6-492e-ace5-832da303315a
-  - id: redhat.java
-    uuid: 198a707e-28af-4e84-8610-6e2f628dd12d
-  - id: redhat.vscode-yaml
-    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
-  - id: rust-lang.rust-analyzer
-    uuid: 06574cb4-e5dc-4631-8174-a543a4533621
-  - id: sleistner.vscode-fileutils
-    uuid: d637104e-1fd7-4063-98fc-8afe46012c9b
-  - id: tombi-toml.tombi
-    uuid: bb77ad7f-cbc2-4e7a-8793-aa8f16a4ff2f
+  - id: owenrumney.make-ls
+    uuid: e7d987e2-ed78-40fe-a325-de88dc3d9bd0
+  - id: PKief.material-icon-theme
+    uuid: 5db78037-f674-459f-a236-db622c427c5b
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
-  - id: vscjava.vscode-gradle
-    uuid: a226f06e-9b5e-493b-b92a-553d3572f969
-  - id: vscjava.vscode-java-debug
-    uuid: 61fcd0cf-64d7-4836-8d6b-d55f4fb83281
-  - id: vscjava.vscode-java-dependency
-    uuid: 7865e561-1c83-410e-9b99-aabada597a7e
-  - id: vscjava.vscode-java-pack
-    uuid: 96f11e1f-1a46-4592-b084-f025b2c2a81f
-  - id: vscjava.vscode-java-test
-    uuid: 67c06b0d-1891-42ca-b2a8-113e79bff069
-  - id: vscjava.vscode-maven
-    uuid: b0f06c6b-24fb-4d7b-bd79-bc5e2fa17312
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
-  - id: Vue.volar
-    uuid: a95ee795-1576-4ffa-acda-8d6e6a95c584
-  - id: waderyan.gitblame
-    uuid: 2335b326-c334-4e81-bc51-c408fcec6e7c
-  - id: washan.cargo-appraiser
-    uuid: 46f19265-bb03-4c24-b509-1b31a37274e9
-  - id: yzhang.markdown-all-in-one
-    uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
